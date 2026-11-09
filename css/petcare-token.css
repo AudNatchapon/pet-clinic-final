@@ -1,0 +1,63 @@
+/**
+ * petcare-token.css
+ * Generated strictly from design.md for PetCare Portal HTS #2B
+ */
+
+:root {
+  /* Primitive Tokens */
+  --color-purple-500: #5B4FE0;
+  --color-yelllow-500: #F4D12E;
+  --color-yellow-500: #F4D12E;
+  --color-green-500: #5FA777;
+  --color-gray-400: #D9D9D9;
+  --color-blue-100: #9CD3EF;
+  --color-black-1000: #000000;
+  --color-white: #FFFFFF;
+
+  /* Semantic Tokens */
+  --color-primary: var(--color-purple-500);
+  --color-danger: var(--color-yelllow-500);
+  --color-success: var(--color-green-500);
+  --color-background: var(--color-blue-100);
+  --color-surface: var(--color-white);
+
+  /* Semantic Tints */
+  --tint-primary: color-mix(in srgb, var(--color-purple-500) 14%, white);
+  --tint-primary-strong: color-mix(in srgb, var(--color-purple-500) 22%, white);
+  --tint-success: color-mix(in srgb, var(--color-green-500) 16%, white);
+  --tint-danger: color-mix(in srgb, var(--color-yelllow-500) 30%, white);
+  --tint-background-strong: color-mix(in srgb, var(--color-blue-100) 55%, white);
+
+  /* Typography */
+  --font-family-base: -apple-system, "Segoe UI", "Noto Sans Thai", "Leelawadee UI", sans-serif;
+  --font-size-2xl: 32px;
+  --font-size-lg: 24px;
+  --font-size-md: 18px;
+  --font-size-sm: 14px;
+
+  /* Spacing & Layout (8px Grid) */
+  --space-16: 16px;
+  --space-24: 24px;
+  --Grid-8: 8px;
+  --radius-md: 8px;
+
+  --space-md: var(--space-16);
+  --space-lg: var(--space-24);
+  --Grid: var(--Grid-8);
+
+  /* Component Tokens */
+  --button-primary-bg: var(--color-primary);
+  --button-primary-text: var(--color-white);
+  --button-radius: var(--radius-md);
+
+  --input-border: var(--color-gray-400);
+  --input-focus: var(--color-primary);
+  --input-padding: var(--space-md);
+
+  --chip-bg-default: var(--color-gray-400);
+  --chip-bg-active: var(--color-primary);
+  --chip-radius: 16px;
+
+  --thumbnail-size: 48px;
+  --thumbnail-radius: var(--radius-md);
+}
